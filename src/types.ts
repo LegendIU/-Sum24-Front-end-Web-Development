@@ -1,4 +1,4 @@
-// types.ts
+// src/types.ts
 
 export interface Comic {
     month: string;
@@ -17,4 +17,3 @@ export interface Comic {
 export interface ComicIdResponse {
     id: number;
 }
-
