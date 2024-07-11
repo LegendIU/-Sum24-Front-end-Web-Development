@@ -1,0 +1,90 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.leftLinks {
+  display: flex;
+  align-items: center;
+}
+
+.comicLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+
+.comicLink:hover {
+  background-color: darkgreen;
+  transform: scale(1.01);
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: white;
+}
+
+.innopolis {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 5px;
+}
+
+.university {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  transform: translateY(0.5em);
+}
+
+.socialLinks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.socialLinks li {
+  margin: 0 10px;
+}
+
+.socialLinks li a {
+  color: white;
+  text-decoration: none;
+}
+
+.socialLinks li a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.socialLinks li a:hover img {
+  transform: scale(1.2);
+}
