@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/kit": "next",
+    "gh-pages": "^3.2.3"
+  }
+}
